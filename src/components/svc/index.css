@@ -1,0 +1,245 @@
+
+  
+  /* CSS Styles Started Here */
+  
+  .heading{
+    font-size:25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .top-container{
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  
+  @media (min-width: 992px){
+    .logo{
+       width: 100px;
+    }
+    .top-container{
+      display: flex;
+    }
+  
+    .heading{
+      font-size: 40px;
+      font-weight: 800;
+    }
+  
+    .main-banner-image-small{ 
+      display: none;  
+    }
+    .top-container-text{
+      margin-top: 60px;
+    }
+    .middle-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .card-container{
+      margin: 20px;
+    }
+    .estate-container{
+      margin-top: 40px;
+      display: flex;
+      background-color: rgb(226, 244, 243);
+      padding: 30px;
+      margin-bottom: 50px;
+      border-radius: 16px;
+    }
+    .estate-lg-details{
+      margin-top: 100px;
+    }
+    .estate-container h1{
+      font-size: 35px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    .estate-container p{
+      font-size: 20px;
+      font-weight: 400;
+    }
+    .estate-container img{
+        border-radius: 16px;
+    }
+    .footer-container{
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    .footer-container h1{
+      font-size: 25px;
+      font-weight: 700;
+    }
+    .footer-container li{
+      font-size: 15px;
+      font-weight: 400;
+    }
+    .footer-address-image{
+      width: 350px;
+      
+    }
+    .footer-address{
+      margin-left: 50px;
+      text-align: center;
+      margin-top: 0;
+    } 
+  
+  }
+  
+  
+  @media (max-width: 992px){
+    .logo{
+      width: 70px;
+   }
+    .main-banner-image-large{ 
+      display: none;  
+    }
+    .middle-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .card-container{
+      margin: 15px 0;
+    }
+    .estate-container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 10px 0;
+      padding-bottom: 40px;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+    .estate-container h1{
+      font-size: 25px;
+      font-weight: 700;
+      text-align: center;
+      margin-top: 25px;
+      margin-bottom: 15px;
+    }
+    .estate-container p{
+      text-align: center;
+    }
+    .estate-container img{
+      width: 280px;
+    }
+    .footer-address-image{
+      width: 90%;
+    }
+    .school-and-college-container h1{
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .railway-and-busstand-container h1{
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .social-media-container{
+      margin-top: 30px;
+      margin-right: 25px;
+    }
+    
+  }
+  
+  
+  .main-banner-image-small{
+    width: 280px;
+  }
+  .main-banner-image-large{
+    width: 650px;
+  }
+  
+  .brr-nivas-address{
+      width: 300px;
+  }
+  
+  /* Rooms Styling */
+  
+  .card-container{
+    background-color: rgb(231, 241, 241);
+    text-align: center;
+    border-radius: 16px;
+  }
+  .card-heading{
+    font-size: 25px;
+    font-weight: 700;
+    padding-top: 15px;
+  }
+  .card-image{
+    width: 250px;
+    height: 330px;
+    border-radius: 16px;
+    margin: 0 20px 20px 20px;
+  }
+  
+  .contact-us-btn-1,.contact-us-btn-2{
+    padding: 10px 20px;
+    margin-top: 35px;
+    color: #ffffff;
+    font-weight: 600;
+    border: solid;
+    border-width: 0px;
+    border-radius: 8px;
+  }
+  
+  .school-and-college-container{
+    list-style-type: none;
+    text-align: center;
+    
+  }
+  .school-and-college-container li{
+    padding: 10px 0px;
+    padding-right: 20px;
+  }
+  .railway-and-busstand-container li{
+    padding: 10px 0px;
+    padding-right: 20px;
+  }
+  .railway-and-busstand-container{
+    list-style-type: none;
+    text-align: center;
+    
+  }
+  .link-item{
+    text-decoration: none;
+  }
+  
+  
+  .social-media-container{
+    list-style-type: none;
+  }
+  
+  .social-media-icon{
+    font-size: 25px;
+    margin: 15px;
+  }
+  .insta-icon{
+    color: rgb(237, 16, 130);
+  }
+  .copy-right{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  @media (min-width:576px) and (max-width:992px){
+      .middle-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+      }
+      
+      .card-image{
+        width: 220px;
+        height: 300px;
+        border-radius: 16px;
+        margin: 0 20px 20px 20px;
+      }
+      
+  }

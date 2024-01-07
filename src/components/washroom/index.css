@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (min-width: 320px) and (max-width:576px){
+    .room-image{
+        width: 120px;
+        height: 120px;
+        margin: 10px;
+    }
+    .galary-heading{
+        font-size: 25px;
+        font-weight: 800;
+        margin: 25px 0;
+    }
+}
+
+@media (min-width: 576px) and (max-width:992px){
+    .room-image{
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+    }
+    .galary-heading{
+        font-size: 35px;
+        font-weight: 800;
+        margin: 25px 0;
+    }
+}
+
+@media (min-width:992px){
+    .room-image{
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+    }
+    .galary-heading{
+        font-size: 40px;
+        font-weight: 800;
+        margin: 30px;
+    }
+}
+
+

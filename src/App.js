@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Switch } from "react-router-dom"
+import Svc from "./components/svc"
+import BedRoomDesigns from "./components/bedroom"
+import LivingRoomDesigns from "./components/livingroom"
+import KitchenRoomDesigns from "./components/kitchen"
+import WashRoomDesigns from "./components/washroom"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () =>{
+
+  return(
+    <BrowserRouter>
+      <Switch>
+          <Route exact path = "/" component = {Svc}/>
+          <Route exact path = "/bedroom-designs" component = {BedRoomDesigns}/>
+          <Route exact path = "/livingroom-designs" component = {LivingRoomDesigns}/>
+          <Route exact path = "/kitchenroom-designs" component = {KitchenRoomDesigns}/>
+          <Route exact path = "/washroom-designs" component = {WashRoomDesigns}/>
+      </Switch>
+    </BrowserRouter>
+  )
+  
 }
-
-export default App;
+export default App
